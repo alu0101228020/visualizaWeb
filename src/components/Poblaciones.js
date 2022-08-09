@@ -5,7 +5,7 @@ import './Poblaciones.css';
 import Select from 'react-select';
 import axios from 'axios';
 import ChartDataLabels from 'chartjs-plugin-datalabels';
-import { Container, Row, Col, Button } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import { IoIosArrowRoundBack } from "react-icons/io";
 import {
     Link
@@ -443,7 +443,7 @@ const Poblaciones = () => {
               weight: 'bold'
             },
             formatter: (value) => {
-              if (value == 0) {
+              if (value === 0) {
                 return '';
               } else {
                 return value + '%';
