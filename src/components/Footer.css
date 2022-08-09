@@ -1,0 +1,10 @@
+.card-title {
+    font-family: "Gill Sans Extrabold";
+    color: rgb(0, 0, 0) !important;
+    font-weight: bold !important;
+}
+
+.card {
+    margin-top: 2em;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+}
