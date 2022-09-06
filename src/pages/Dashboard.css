@@ -1,0 +1,40 @@
+.styleChart{
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(179, 179, 179, 0.8);
+    box-shadow: 1px 1px 2px;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    padding: 15px;
+    padding-bottom: 30px;
+}
+
+.styleChart:hover {
+    box-shadow: inset 0 0 3px;
+}
+
+.nav-tabs .nav-link {
+    color: #000000 !important;
+}
+
+.nav-tabs .nav-link.active {
+    border-bottom: solid 4px rgb(203,183,245) !important;
+}
+
+.tamanoRadar {
+    width: 800px;  
+    height: 500px;
+}
+
+.tamanoPie {
+    width: 500px;  
+    height: 400px;
+}
+
+.h5 {
+    margin-top: 0px !important;
+}
+
+.tamanoBar {
+    height: 400px;
+}

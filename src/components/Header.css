@@ -1,0 +1,15 @@
+.navbar-brand {
+  font-family: "Gill Sans Extrabold";
+  color: rgb(0, 0, 0) !important;
+  font-weight: bold;
+}
+
+.navbar {
+  margin-bottom: 2em;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+}
+
+.nav-link {
+  color: rgb(0, 0, 0) !important;
+  letter-spacing: 0.8px;
+}
